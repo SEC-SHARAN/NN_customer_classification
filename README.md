@@ -1,5 +1,6 @@
 # Developing a Neural Network Classification Model
-
+## Name: SHARAN S
+## Register no: 212224040309
 ## AIM
 
 To develop a neural network classification model for the given dataset.
