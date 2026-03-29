@@ -62,7 +62,7 @@ class PeopleClassifier(nn.Module):
         
 
 ```
-```
+```python
 model = PeopleClassifier(input_size=X_train.shape[1])
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
