@@ -44,7 +44,7 @@ Save the trained model, export it if needed, and deploy it for real-world use.
 
 ## PROGRAM
 
-```
+```python
 class PeopleClassifier(nn.Module):
     def _init_(self, input_size):
         super(PeopleClassifier, self)._init_()
@@ -70,7 +70,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 ```
 # Training Loop
-```
+```python
 def train_model(model, train_loader, criterion, optimizer, epochs):
   for epoch in range(epochs):
     model.train()
